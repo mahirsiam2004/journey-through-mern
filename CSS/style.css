@@ -1,6 +1,5 @@
 p {
     text-transform: uppercase;
-    background-color: coral;
     text-align: center;
 }
 
@@ -29,17 +28,36 @@ h1 {
     flex-direction: column;
 
 }
+.cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cnt p{
+    padding: 10px 10px;
+}
 
 .task-03 p {
     width: 700px;
-    height: 100px;
+    height: 60px;
     border: 2px solid rgb(183, 0, 255);
     box-shadow: 10px 15px 50px green;
-    box
 }
 
 .task-03 img {
 
     width: 500px;
     height: 300px;
+}
+
+.task-04{
+    background-image: url(/Html/images/kevin-canlas-cFFEeHNZEqw-unsplash.jpg);
+    color: rgb(18, 199, 90);
+    background-repeat: no-repeat;
+    border-radius: 40px;
+}
+
+.task-04 p{
+    background-color: none;
 }
