@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .ellipsis{
+            width: 200px;
+            white-space: nowarp; /*not working*/
+            border: 1px solid steelblue;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            overflow:auto;
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <p class="ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis magni officiis eos, earum reprehenderit tenetur consequuntur hic aliquid sunt.</p>
+    </header>
+    <!-- .box*2>h2{Box-$}+p>lorem -->
+    <div class="box">
+        <h2>Box-1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur placeat velit vel corporis tenetur culpa molestiae quos odit optio! Alias accusantium iusto officia quidem labore vero fuga sit aut?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa maxime labore animi consectetur hic modi, reprehenderit possimus repellendus temporibus beatae fugiat tempora totam reiciendis similique. Alias omnis inventore aliquid ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vero possimus blanditiis nisi nesciunt veritatis iste praesentium. Impedit sapiente voluptas tempora voluptatum ad molestias, provident fugit, ducimus cum inventore sunt!</p>
+    </div>
+    <div class="box">
+        <h2>Box-2</h2>
+        <p>Aspernatur sapiente reprehenderit corrupti minus expedita ducimus. Odit, eos fugit? Mollitia repellat eum accusamus doloremque, nemo error dolorem odit cupiditate veritatis consequuntur, vel perferendis ipsum. Repellendus aut quibusdam cum blanditiis?</p>
+    </div>
+</body>
+</html>
