@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.new-year {
+  display: flex;
+  flex-direction: column;
+  width: 1320px;
+  height: 600px;
+  padding: 16px;
+  margin: 50px auto;
+  text-align: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0),
+      transparent
+    ),
+    url("/Projetcs/new-year-offer-resources/images/Banner Image.png");
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  border-radius: 16px;
+}
+
+.new-year h1 {
+  font-size: 72px;
+  font-weight: 900;
+}
+.new-year h3 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.discount {
+  width: 802.9px;
+  height: 806px;
+  margin: 20px auto;
+  text-align: center;
+}
+.discount img {
+  width: 802.9px;
+  height: 500px;
+}
+.discount h1 {
+  font-size: 88px;
+  font-weight: 700;
+  color: rgb(255, 0, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.discount h5 {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(255, 0, 0);
+}
+.discount h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(7, 2, 17);
+}
+
+/* midnight section */
+.midnight {
+  width: 1320px;
+  height: 600px;
+  margin: 120px auto;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  text-align: left;
+  gap: 24px;
+  color: white;
+  background-image: linear-gradient(
+      to right,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0),
+      transparent
+    ),
+    url(/Projetcs/new-year-offer-resources/images/Vectorrr.png);
+  padding-left: 126px;
+  border-radius: 10px;
+  padding: 68px;
+}
+
+.right img {
+  width: 349.16px;
+  height: 464.65px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+.midnight h1 {
+  font-size: 64px;
+  font-weight: 900;
+}
+.midnight p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+.midnight h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.place {
+  margin: 120px auto;
+  /* background-color: red; */
+  width: 1320px;
+  height: 482px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0)
+  );
+}
+
+.place span {
+  color: rgb(255, 0, 0);
+}
+.place button {
+  margin-top: 64px;
+  padding: 16px 32px 16px 32px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: none;
+}
