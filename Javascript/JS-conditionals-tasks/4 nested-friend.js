@@ -10,3 +10,20 @@ if you get less than 80 go to home and sleep and act sad
 Note: 
 use nested if-else-if-else
 */
+let me = 81;
+let fnd = 81;
+
+if (me > 80) {
+
+  if (fnd > 80) {
+    console.log("go for a lunch");
+  } else if (fnd >= 60) {
+    console.log("good luck next time");
+  } else if (fnd >= 40) {
+    console.log("unseen");
+  } else {
+    console.log("block");
+  }
+} else {
+  console.log("go to home and sleep and act sad");
+}
