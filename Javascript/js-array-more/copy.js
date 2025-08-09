@@ -14,7 +14,7 @@ const comp_products = [];
 for (const product of products) {
     comp_products.push(product);
 }
-
+ 
 comp_products[0] = 15;
 products[1] = 55;
 
