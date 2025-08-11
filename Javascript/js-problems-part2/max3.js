@@ -1,15 +1,15 @@
-const jim = 256;
-const tim = 389;
-const kim = 168;
+const bal = 256;
+const chal = 389;
+const mal = 168;
 
-if (jim > tim && jim > kim) {
-    console.log('JIm is the ultimate boss')
+if (bal > chal && bal > mal) {
+    console.log('bal is the ulchalate boss')
 }
-else if (tim > jim && tim > kim) {
-    console.log('Tim is the boss')
+else if (chal > bal && chal > mal) {
+    console.log('chal is the boss')
 }
 else {
-    console.log('Kim is the kardashians boss')
+    console.log('mal is the kardashians boss')
 }
 
 function maxOfThree (num1, num2, num3){
