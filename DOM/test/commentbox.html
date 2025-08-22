@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comment-Box</title>
+
+    <style>
+      #comment-box {
+        max-width: 1140px;
+        text-align: center;
+        background-color: brown;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        padding: 20px;
+      }
+      .boxes {
+        width: 500px;
+        background-color: blueviolet;
+        padding: 20px;
+        margin: 20px auto;
+        border-radius: 16px;
+        color: white;
+      }
+      #comment-area {
+        margin: 0 auto;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+      }
+      #comment-area button {
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="comment-box">
+      <h1 style="font-size: 40px">Dynamic Comment Box in JS</h1>
+
+      <div class="boxes">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          vitae dicta labore architecto voluptates delectus consectetur tempore
+          omnis ducimus.
+        </p>
+      </div>
+
+      <section id="comment-area">
+        <textarea id="int_text" placeholder="Write your comment..."></textarea>
+        <button id="submit-btn">Submit Comment</button>
+      </section>
+    </section>
+
+    <script>
+      document
+        .getElementById("submit-btn")
+        .addEventListener("click", function () {
+          const text = document.getElementById("int_text");
+          const new_comment = text.value;
+
+          if (new_comment.trim() === "") {
+            alert("Please write something before submitting!");
+            return;
+          }
+
+          const cmtContainer = document.getElementById("comment-box");
+
+          const addcommentDiv = document.createElement("div");
+          const commentP = document.createElement("p");
+
+          addcommentDiv.classList.add("boxes");
+          commentP.innerText = new_comment;
+
+          addcommentDiv.appendChild(commentP);
+          cmtContainer.appendChild(addcommentDiv);
+
+          text.value = ""; // textarea clear করে দিবে
+        });
+    </script>
+  </body>
+</html>
