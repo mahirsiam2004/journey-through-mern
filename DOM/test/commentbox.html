@@ -50,31 +50,35 @@
       </section>
     </section>
 
-    <script>
-      document
-        .getElementById("submit-btn")
-        .addEventListener("click", function () {
-          const text = document.getElementById("int_text");
-          const new_comment = text.value;
+<script>
+  document
+    .getElementById("submit-btn")
+    .addEventListener("click", function () {
+      const text = document.getElementById("int_text");
+      const new_comment = text.value;
 
-          if (new_comment.trim() === "") {
-            alert("Please write something before submitting!");
-            return;
-          }
+      if (new_comment.trim() === "") {
+        alert("Please write something before submitting!");
+        return;
+      }
 
-          const cmtContainer = document.getElementById("comment-box");
+      const cmtContainer = document.getElementById("comment-box");
+      const commentArea = document.getElementById("comment-area");
 
-          const addcommentDiv = document.createElement("div");
-          const commentP = document.createElement("p");
+      const addcommentDiv = document.createElement("div");
+      const commentP = document.createElement("p");
 
-          addcommentDiv.classList.add("boxes");
-          commentP.innerText = new_comment;
+      addcommentDiv.classList.add("boxes");
+      commentP.innerText = new_comment;
 
-          addcommentDiv.appendChild(commentP);
-          cmtContainer.appendChild(addcommentDiv);
+      addcommentDiv.appendChild(commentP);
 
-          text.value = ""; // textarea clear করে দিবে
-        });
-    </script>
+      // ✅ insertBefore(newDiv, commentArea)
+      cmtContainer.insertBefore(addcommentDiv, commentArea);
+
+      text.value = ""; // textarea clear করে দিবে
+    });
+</script>
+
   </body>
 </html>
