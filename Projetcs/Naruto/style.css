@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "m-font"; 
+  src: url("./Jember\ Sketch.ttf");
+
+}
+.m_font{
+      font-family: "m-font"; 
+      /* font-size: 50px; */
+}
+@font-face {
+  font-family: "buggy-font"; 
+  src: url("./Under\ Station.ttf");
+
+}
+.buggy-font{
+      font-family: "buggy-font"; 
+      /* font-size: 50px; */
+}
