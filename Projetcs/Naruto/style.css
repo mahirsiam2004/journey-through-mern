@@ -1,18 +1,46 @@
 @font-face {
-  font-family: "m-font"; 
+  font-family: "m-font";
   src: url("./Jember\ Sketch.ttf");
-
 }
-.m_font{
-      font-family: "m-font"; 
-      /* font-size: 50px; */
+.m_font {
+  font-family: "m-font";
+  /* font-size: 50px; */
 }
 @font-face {
-  font-family: "buggy-font"; 
+  font-family: "buggy-font";
   src: url("./Under\ Station.ttf");
-
 }
-.buggy-font{
-      font-family: "buggy-font"; 
-      /* font-size: 50px; */
+.buggy-font {
+  font-family: "buggy-font";
+  /* font-size: 50px; */
+}
+
+.team-card,
+.jutsu-card {
+  @apply p-6 bg-base-100 shadow-lg rounded-xl transition-transform duration-500 cursor-pointer;
+}
+.team-card:hover,
+.jutsu-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-img {
+  @apply rounded-xl shadow-md w-full h-60 object-cover transition-transform duration-500;
+}
+.gallery-img:hover {
+  transform: scale(1.1);
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+.timeline li {
+  @apply bg-base-100 shadow-md rounded-lg p-4 my-2;
+  transition: all 0.3s ease;
+}
+.timeline li:hover {
+  background-color: #f97316;
+  color: white;
 }

@@ -1,117 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naruto</title>
-    <!-- tailwind + daisyUI -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naruto</title>
+<!-- tailwind + daisyUI -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+    @font-face {
+        font-family: "MFont";
+        src: url("./Bleeding_Cowboys.ttf") format("truetype");
+    }
 
-    <link rel="stylesheet" href="style.css">
-    <style>
-        @font-face {
-            font-family: "MFont";
-            src: url("./Bleeding_Cowboys.ttf") format("truetype");
-        }
-
-        .m_font {
-            font-family: "MFont", sans-serif;
-        }
-    </style>
+    .m_font {
+        font-family: "MFont", sans-serif;
+    }
+</style>
 </head>
 
 <body class="bg-base-100">
     <header class="h-screen relative max-w-[1940px] mx-auto">
         <!-- Navbar -->
         <nav>
-            <div class="navbar text-dark shadow-sm">
+            <div class="navbar text-dark shadow-sm max-w-[1640px] mx-auto">
                 <div class="navbar-start">
-                    <a class="btn btn-ghost text-xl">Naruto</a>
+                    <a class="btn btn-ghost text-xl m_font">Naruto</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <details>
-                                <summary>Parent</summary>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </details>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        <li><a href="#banner">Home</a></li>
+                        <li><a href="#characters">Characters</a></li>
+                        <li><a href="#clans">Clans</a></li>
+                        <li><a href="#villages">Villages</a></li>
+                        <li><a href="#kekkei-genkai">Kekkei Genkai</a></li>
+                        <li><a href="#jutsu">Jutsu</a></li>
+                        <li><a href="#tailed-beasts">Tailed Beasts</a></li>
+                        <li><a href="#teams">Teams</a></li>
+                        <li><a href="#akatsuki">Akatsuki</a></li>
+                        <li><a href="#kara">Kara</a></li>
+                        <li><a href="#quotes-section">Quotes</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="btn">Coffee</a>
+                    <a class="btn">LOGIN</a>
                 </div>
             </div>
         </nav>
-
         <!-- Banner -->
-        <div
+        <div id="banner"
             class="banner w-full h-[calc(100vh-64px)] relative flex items-center justify-center overflow-hidden text-center">
             <!-- Light background -->
             <img src="./NicePng_light-png_15590.png" alt="Light background"
                 class="absolute w-[70%] sm:w-[60%] md:w-[50%] lg:w-[40%] opacity-80 z-0 animate-pulse" />
-
             <!-- Naruto text -->
-            <h1 class="absolute z-10 m_font text-orange-400 drop-shadow-lg uppercase tracking-widest 
-                 text-[15vw] sm:text-[10vw] md:text-[8vw] lg:text-[20vw] xl:text-[13vw]">
+            <h1
+                class="absolute z-10 m_font text-orange-400 drop-shadow-lg uppercase tracking-widest text-[15vw] sm:text-[10vw] md:text-[8vw] lg:text-[20vw] xl:text-[13vw]">
                 Naruto
             </h1>
-
             <!-- Naruto image -->
             <img src="./25688c4c-beae-4718-a8b7-6dc027aeecf3_removalai_preview.png" alt="Naruto"
                 class="relative z-20 w-[80%] sm:w-[70%] md:w-[60%] lg:w-[50%] max-w-[600px]" />
         </div>
     </header>
-
     <!-- Main -->
     <main class="mx-auto max-w-[1940px] p-4">
-        <div class="mx-auto w-[40%] mb-8">
-            <label class="input flex items-center gap-2 w-full">
-                <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
-                        stroke="currentColor">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <path d="m21 21-4.3-4.3"></path>
-                    </g>
-                </svg>
-                <input type="search" required placeholder="Search a character" class="flex-1 outline-none" />
-            </label>
+        <div id="about" class="my-16 mx-auto max-w-[800px] p-4 text-center">
+            <h2 class="text-3xl font-bold mb-6 m_font text-orange-400">About Naruto</h2>
+            <p class="text-lg mb-4">Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It
+                tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of
+                becoming the Hokage, the leader of his village.</p>
+            <p class="text-lg mb-4">The story is told in two parts: the first in Naruto's pre-teen years, and the second
+                in his teens. The series is based on two one-shot manga by Kishimoto: Karakuri (1995), which earned
+                Kishimoto an honorable mention in Shueisha's monthly Hop Step Award the following year, and Naruto
+                (1997).</p>
+            <p class="text-lg">Naruto was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from 1999 to
+                2014, and released in tankōbon (book) form in 72 volumes. The manga was adapted into an anime television
+                series produced by Pierrot and Aniplex, which broadcast 220 episodes in Japan from 2002 to 2007; the
+                English dub of the series aired on Cartoon Network and YTV from 2005 to 2009.</p>
         </div>
-
-        <section id="card-container"
-            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center items-center max-w-[1600px] mx-auto p-4">
-        </section>
-
-
+        <div id="characters">
+            <div class="mx-auto w-[40%] mb-8">
+                <label class="input flex items-center gap-2 w-full">
+                    <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
+                            stroke="currentColor">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.3-4.3"></path>
+                        </g>
+                    </svg>
+                    <input type="search" required placeholder="Search a character" class="flex-1 outline-none" />
+                </label>
+            </div>
+            <h2 class="text-3xl font-bold mb-6 m_font text-orange-400 text-center">Characters</h2>
+            <section id="card-container"
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center items-center max-w-[1600px] mx-auto p-4">
+            </section>
+        </div>
+        <!-- <div id="clans">
+            <h2 class="text-3xl font-bold mb-6 m_font text-orange-400 text-center">Clans</h2>
+            <section id="clan-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center items-center max-w-[1600px] mx-auto p-4">
+            </section>
+        </div>
+        <div id="villages">
+            <h2 class="text-3xl font-bold mb-6 m_font text-orange-400 text-center">Villages</h2>
+            <section id="village-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center items-center max-w-[1600px] mx-auto p-4">
+            </section>
+        </div>
+        <div id="kekkei-genkai">
+            <h2 class="text-3xl font-bold mb-6 m_font text-orange-400 text-center">Kekkei Genkai</h2>
+            <section id="kekkei-genkai-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center items-center max-w-[1600px] mx-auto p-4">
+            </section>
+        </div>
+        <div id="jutsu">
+            <h2 class="text-3xl font-bold mb-6 m_font text-orange-400 text-center">Jutsu</h2>
+            <section id="jutsu-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center items-center max-w-[1600px] mx-auto p-4">
+            </section>
+        </div>
+        <div id="tailed-beasts">
+            <h2 class="text-3xl font-bold mb-6 m_font text-orange-400 text-center">Tailed Beasts</h2>
+            <section id="tailed-beasts-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center items-center max-w-[1600px] mx-auto p-4">
+            </section>
+        </div>
+        <div id="teams">
+            <h2 class="text-3xl font-bold mb-6 m_font text-orange-400 text-center">Teams</h2>
+            <section id="team-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center items-center max-w-[1600px] mx-auto p-4">
+            </section>
+        </div> -->
+        <div id="akatsuki">
+            <h2 class="text-3xl font-bold mb-6 m_font text-orange-400 text-center">Akatsuki</h2>
+            <section id="akatsuki-container"
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center items-center max-w-[1600px] mx-auto p-4">
+            </section>
+        </div>
+        <div id="kara">
+            <h2 class="text-3xl font-bold mb-6 m_font text-orange-400 text-center">Kara</h2>
+            <section id="kara-container"
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center items-center max-w-[1600px] mx-auto p-4">
+            </section>
+        </div>
     </main>
 
     <!-- Naruto Quotes Section -->
-<section id="quotes-section" class="my-16 mx-auto max-w-[800px] p-4 text-center">
-  <h2 class="text-3xl font-bold mb-6 m_font text-orange-400">Best Naruto Quotes</h2>
-  <div id="quote-card" 
-       class="p-6 bg-base-200 shadow-lg rounded-2xl cursor-pointer transition-transform duration-300">
-    <p id="quote-text" class="text-xl italic mb-4">Loading quote…</p>
-    <p id="quote-character" class="text-lg font-semibold">— Character</p>
-  </div>
-</section>
-
-
-
-
+    <section id="quotes-section" class="my-16 mx-auto max-w-[800px] p-4 text-center">
+        <h2 class="text-3xl font-bold mb-6 m_font text-orange-400">Best Naruto Quotes</h2>
+        <div id="quote-card"
+            class="p-6 bg-base-200 shadow-lg rounded-2xl cursor-pointer transition-transform duration-300">
+            <p id="quote-text" class="text-xl italic mb-4">Loading quote…</p>
+            <p id="quote-character" class="text-lg font-semibold">— Character</p>
+        </div>
+    </section>
     <footer class="p-4 text-center">
-        <p class="text-sm opacity-60">© Naruto Fan Page by <span class="buggy-font underline text-red-600">Mahir Siam</span> </p>
+        <p class="text-sm opacity-60">© Naruto Fan Page by <span class="buggy-font underline text-red-600">Mahir
+                Siam</span> </p>
     </footer>
-
-
-
-    <!-- gsap animation  -->
+    <!-- gsap animation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
         integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
