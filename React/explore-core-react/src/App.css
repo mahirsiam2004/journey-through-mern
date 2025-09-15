@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.student{
+  padding: 10px 20px;
+  border: 2px solid skyblue;
+  border-radius: 16px;
+}
