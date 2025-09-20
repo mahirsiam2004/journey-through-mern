@@ -7,7 +7,7 @@ handleCardContainer = () => {
 showCard = (data) => {
   data.forEach((el) => {
     Cardcontainer.innerHTML += `
-      <div class="card bg-base-100 shadow-sm w-72 mx-auto transform transition duration-500 hover:scale-105 hover:shadow-xl">
+      <div onclick="handlemodal(${el.id})" class="card bg-base-100 shadow-sm w-72 mx-auto transform transition duration-500 hover:scale-105 hover:shadow-xl">
         <figure class="w-full h-64 overflow-hidden">
           <img src="${el.images[1] ? el.images[1] : el.images[0]}" alt="${
       el.name
@@ -30,6 +30,16 @@ showCard = (data) => {
     `;
   });
 };
+
+const handlemodal=(id)=>{
+  displayModal(id)
+}
+
+
+const displayModal=(anime)=>{
+const detailsContainer=document.getElementById('details-container')
+}
+
 // QUOTES SECTION (STATIC)
 const quotes = [
   {
@@ -49,10 +59,13 @@ const quotes = [
     character: "Naruto Uzumaki",
   },
 ];
+
+
 const quoteTextEl = document.getElementById("quote-text");
 const quoteCharacterEl = document.getElementById("quote-character");
 const quoteCardEl = document.getElementById("quote-card");
 let currentQuote = 0;
+
 function showQuote(index) {
   const q = quotes[index];
   quoteTextEl.textContent = `${q.text}`;
