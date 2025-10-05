@@ -5,9 +5,19 @@ import Footer from '../Components/Footer';
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
-           <main className=' min-h-[calc(100vh-357px)] '> welcome to home</main>
-            <Footer></Footer>
+           
+           <main className=' min-h-[calc(100vh-357px)] '> 
+            <p>welcome to home</p>
+            <p>welcome to home</p>
+            <p>welcome to home</p>
+            <p>welcome to home</p>
+            <p>welcome to home</p>
+            <p>welcome to home</p>
+            <p>welcome to home</p>
+            <p>welcome to home</p>
+            <p>welcome to home</p>
+           </main>
+           
         </div>
     );
 };
