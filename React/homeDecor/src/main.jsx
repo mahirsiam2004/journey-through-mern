@@ -4,7 +4,7 @@ import './index.css'
 import { BrowserRouter, Route, RouterProvider, Routes } from 'react-router'
 import router from './Routes/Routes.jsx'
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')).render( 
   <StrictMode>
     {/* Declarative Mode */}
     {/* <BrowserRouter>
