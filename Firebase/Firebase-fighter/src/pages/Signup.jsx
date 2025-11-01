@@ -152,7 +152,7 @@ const Signup = () => {
                 <input
                   type="text"
                   name="name"
-                  placeholder="Habib utsho"
+                  placeholder="enter your name "
                   className="input input-bordered w-full bg-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-pink-400"
                 />
               </div>

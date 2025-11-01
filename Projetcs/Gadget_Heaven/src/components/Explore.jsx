@@ -1,8 +1,11 @@
 import React from "react";
 import useProducts from "../hooks/useProducts";
 
+
+
 const Explore = () => {
-const {loading,error,products}=useProducts();
+const { products, loading, error } =useProducts;
+console.log(products,loading,error)
   return (
     <section className="mx-auto ">
       <h1 className="text-3xl md:text-6xl font-semibold">
@@ -11,7 +14,7 @@ const {loading,error,products}=useProducts();
       <div className="grid grid-cols-8 bg-amber-300">
         <aside className="bg-gray-700 grid col-span-2 ">
 {
-            products.map(()=><p>hi</p>)
+            console.log(products)
 
 }        </aside>
         <div className="bg-red-400 grid col-span-6 ">products</div>
