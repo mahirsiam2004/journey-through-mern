@@ -50,6 +50,17 @@ app.get("/models", async (req, res) => {
   }
 });
 
+app.post('/models',async(req,res)=>{
+  const data=req.body
+  console.log(data);
+  const result=await modelCollection.insertOne(data)
+  res.send({
+    success:true,
+    result
+  })
+})
+
+
 app.get("/", (req, res) => {
   res.send("This is the noob server");
 });
