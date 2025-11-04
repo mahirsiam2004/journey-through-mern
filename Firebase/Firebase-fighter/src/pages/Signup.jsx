@@ -57,7 +57,7 @@ const Signup = () => {
         "Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character"
       );
       return;
-    }
+    } 
 
     // 1st step : Create user
     // createUserWithEmailAndPassword(auth, email, password);
