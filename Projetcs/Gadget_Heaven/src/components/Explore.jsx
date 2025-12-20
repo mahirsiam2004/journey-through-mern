@@ -23,11 +23,19 @@ const Explore = () => {
               {category}
             </h3>
           ))}
+
         </aside>
 
         <div className="bg-red-400 col-span-6 p-4">
-          Products Section
-        </div>
+  Products Section
+  {products.map((product) => (
+    <div key={product.id} className="mb-4">
+      <img src={product.product_image} alt={product.product_name} />
+   
+    </div>
+  ))}
+</div>
+
       </div>
     </section>
   );

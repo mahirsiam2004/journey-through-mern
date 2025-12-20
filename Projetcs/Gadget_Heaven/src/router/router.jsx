@@ -3,6 +3,8 @@ import Home from "../pages/Home";
 import layout from "../layout/layout";
 import Dashboard from "../pages/Dashboard";
 import Statistics from "../pages/Statistics";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +23,14 @@ export const router = createBrowserRouter([
         path: "/statistics ",
         Component: Statistics,
       },
+      {
+        path:'/login',
+        Component:Login,
+      }
+      {
+        path: '/register',
+        Component:Register,
+      }
     ],
   },
 ]);

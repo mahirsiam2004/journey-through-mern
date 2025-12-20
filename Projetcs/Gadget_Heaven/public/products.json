@@ -1,8 +1,8 @@
 [
   {
-    "product_id": "P001",
+
     "product_title": "Apple iPhone 15 Pro Max 256GB",
-    "product_image": "https://www.apple.com/v/iphone-15-pro/max/images/overview/hero/hero.jpg",
+    "product_image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Smartphones",
     "price": 1299,
     "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
@@ -17,9 +17,9 @@
     "rating": 4.8
   },
   {
-    "product_id": "P002",
+
     "product_title": "Samsung Galaxy S23 Ultra",
-    "product_image": "https://www.samsung.com/ae/smartphones/galaxy-s23-ultra/",
+    "product_image": "https://images.unsplash.com/photo-1675452937281-24485562bd84?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Smartphones",
     "price": 1399,
     "description": "A powerhouse in your hand with the latest mobile technology.",
@@ -34,9 +34,9 @@
     "rating": 4.7
   },
   {
-    "product_id": "P003",
+ 
     "product_title": "Sony WH-1000XM5 Wireless Headphones",
-    "product_image": "https://www.sony.com.au/electronics/headband-headphones/wh-1000xm5",
+    "product_image": "https://images.unsplash.com/photo-1755719401938-35c1b24f6d15?q=80&w=1121&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Headphones",
     "price": 349,
     "description": "Industry-leading noise cancellation with superb sound quality.",
@@ -51,9 +51,9 @@
     "rating": 4.9
   },
   {
-    "product_id": "P004",
+   
     "product_title": "Bose QuietComfort 45 Wireless Headphones",
-    "product_image": "https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-45.html",
+    "product_image": "https://assets.gadgetandgear.com/upload/product/20220201_1643689236_613803.png",
     "category": "Headphones",
     "price": 329,
     "description": "Comfortable and immersive sound with unbeatable noise cancellation.",
@@ -67,9 +67,9 @@
     "rating": 4.7
   },
   {
-    "product_id": "P005",
+    
     "product_title": "Dell XPS 13 Laptop",
-    "product_image": "https://www.dell.com/en-us/lp/xps-13-9315-intel-laptop",
+    "product_image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/9345/media-gallery/touch/gray/notebook-xps-13-9345-t-gray-gallery-4-1.png?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=634&qlt=100,1&resMode=sharp2&size=634,402&chrss=full",
     "category": "Laptops",
     "price": 1499,
     "description": "A lightweight and powerful laptop with a sleek design.",
@@ -84,9 +84,9 @@
     "rating": 4.6
   },
   {
-    "product_id": "P006",
+  
     "product_title": "MacBook Air M2",
-    "product_image": "https://www.apple.com/macbook-air-m2/",
+    "product_image": "https://images.unsplash.com/photo-1660833638050-41f95d8b94e6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFjYm9vayUyMGFpciUyMG0yfGVufDB8fDB8fHww",
     "category": "Laptops",
     "price": 1249,
     "description": "The thinnest MacBook with the powerful M2 chip.",
@@ -101,9 +101,9 @@
     "rating": 4.8
   },
   {
-    "product_id": "P007",
+   
     "product_title": "Samsung QN90B Neo QLED TV",
-    "product_image": "https://www.samsung.com/ae/business/tvs/qled-tv/qn90b-50-inch-neo-qled-4k-smart-tv-qa50qn90bauxzn/",
+    "product_image": "https://cdn.bdstall.com/product-image/giant_197949.jpg",
     "category": "Televisions",
     "price": 1999,
     "description": "Experience incredible picture quality with Quantum Matrix technology.",
@@ -118,9 +118,9 @@
     "rating": 4.7
   },
   {
-    "product_id": "P008",
+  
     "product_title": "LG OLED C1 55-inch 4K Smart TV",
-    "product_image": "https://www.lg.com/se/tv-soundbars/oled/oled55c15la/",
+    "product_image": "https://cdn.bdstall.com/product-image/giant_181836.jpg",
     "category": "Televisions",
     "price": 1499,
     "description": "Immersive picture quality with OLED and Dolby Vision.",
@@ -135,9 +135,9 @@
     "rating": 4.8
   },
   {
-    "product_id": "P009",
+    
     "product_title": "GoPro Hero 11 Black",
-    "product_image": "https://www.gopro.com/en/us/shop/cameras/hero11-black/CHDHX-111-master.html",
+    "product_image": "https://dazzle.com.bd/_next/image?url=https%3A%2F%2Fdazzle.sgp1.cdn.digitaloceanspaces.com%2F24644%2FGoPro-HERO11-Black-(1).png&w=1080&q=75",
     "category": "Cameras",
     "price": 499,
     "description": "Capture stunning 5.3K videos and 27MP photos with the ultimate action camera.",
@@ -152,9 +152,9 @@
     "rating": 4.7
   },
   {
-    "product_id": "P010",
+   
     "product_title": "Canon EOS R5 Mirrorless Camera",
-    "product_image": "https://www.usa.canon.com/consumer/standardDisplay/EOS_R5",
+    "product_image": "https://photofocus.com.bd/storage/product/decj0q5xhhm2ndyyysqgmg6dgxoibhscqwx8311x.jpg",
     "category": "Cameras",
     "price": 3899,
     "description": "A professional-grade mirrorless camera with outstanding performance.",
@@ -169,9 +169,9 @@
     "rating": 4.9
   },
   {
-    "product_id": "P011",
+   
     "product_title": "Apple Watch Series 9 GPS 41mm",
-    "product_image": "https://www.apple.com/apple-watch-series-9/",
+    "product_image": "https://dazzle.com.bd/_next/image?url=https%3A%2F%2Fdazzle.sgp1.cdn.digitaloceanspaces.com%2F19044%2FGold-Stainless-Steel-Case-with-Clay-Sport-Band.png&w=1080&q=75",
     "category": "Smartwatches",
     "price": 399,
     "description": "The most advanced Apple Watch with a powerful S9 chip.",
@@ -186,9 +186,9 @@
     "rating": 4.8
   },
   {
-    "product_id": "P012",
+    
     "product_title": "Samsung Galaxy Watch 6 Classic 43mm",
-    "product_image": "https://www.samsung.com/ae/smartphones/galaxy-watch-6-classic/",
+    "product_image": "https://www.custommacbd.com/cdn/shop/files/Galaxy-Watch6-Classic-Black-Custom-Mac-BD_720x.jpg?v=1700288051",
     "category": "Smartwatches",
     "price": 399,
     "description": "A classic design with advanced health features.",
@@ -202,9 +202,9 @@
     "rating": 4.7
   },
   {
-    "product_id": "P013",
+    
     "product_title": "Apple iPhone 14 Pro 128GB",
-    "product_image": "https://www.apple.com/v/iphone-14-pro/images/overview/hero/hero.jpg",
+    "product_image": "https://istockbd.com/cdn/shop/products/iPhone-14-Pro-Max-Deep-Purple-Price-in-Bangladesh.png?v=1755586381&width=700",
     "category": "Smartphones",
     "price": 999,
     "description": "The perfect balance of performance, camera quality, and design.",
@@ -219,9 +219,9 @@
     "rating": 4.8
   },
   {
-    "product_id": "P014",
+    
     "product_title": "Sony PlayStation 5",
-    "product_image": "https://www.playstation.com/en-us/ps5/",
+    "product_image": "https://www.sonysmart.com.bd/public/uploads/all/i9MLbVQMgtMCitByHBz0voe2CeSVk5aexAIOS2FG.jpg",
     "category": "Gaming Consoles",
     "price": 499,
     "description": "The latest PlayStation for next-gen gaming with 4K graphics.",
@@ -236,9 +236,9 @@
     "rating": 4.9
   },
   {
-    "product_id": "P015",
+    
     "product_title": "NVIDIA GeForce RTX 3080",
-    "product_image": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080/",
+    "product_image": "https://www.binarylogic.com.bd/images/product_image/gigabyte-geforce-rtx-3080-10-gaming-graphics-card-10g.webp",
     "category": "PC Components",
     "price": 699,
     "description": "Ultimate graphics card for gaming and content creation.",
@@ -252,9 +252,9 @@
     "rating": 4.7
   },
   {
-    "product_id": "P016",
+    
     "product_title": "Alienware Aurora Ryzen Edition",
-    "product_image": "https://www.dell.com/en-us/shop/desktop-computers/alienware-aurora-ryzen-edition-ultimate-performance-gaming-pc/spd/alienware-aurora-ryzen-edition",
+    "product_image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/alienware-desktops/alienware-aurora-r14/media-gallery/dark-side-of-the-moon-bk-solid-panel-solid-air-cooled-air-no-front-ambient-lighting/desktop_alienware_aurora_r14_bk_solid-panel_gallery_1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=322&qlt=100,1&resMode=sharp2&size=322,402&chrss=full",
     "category": "PC Gaming",
     "price": 1999,
     "description": "The ultimate gaming PC with unmatched performance.",
@@ -268,9 +268,9 @@
     "rating": 4.8
   },
   {
-    "product_id": "P017",
+    
     "product_title": "Razer Blade 15 Advanced",
-    "product_image": "https://www.razer.com/gaming-laptops/razer-blade-15",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/razer/blade-15/base-model_1-500x500.jpg",
     "category": "Laptops",
     "price": 2299,
     "description": "A sleek, high-performance gaming laptop.",
@@ -285,9 +285,9 @@
     "rating": 4.9
   },
   {
-    "product_id": "P018",
+    
     "product_title": "Bose SoundLink Revolve+ II Bluetooth Speaker",
-    "product_image": "https://www.bose.com/en_us/products/speakers/bluetooth_speakers/soundlink-revolve-plus-ii.html",
+    "product_image": "https://assets.gadgetandgear.com/upload/product/20211102_1635850107_793733.png",
     "category": "Speakers",
     "price": 299,
     "description": "360-degree sound with deep bass for the ultimate audio experience.",
