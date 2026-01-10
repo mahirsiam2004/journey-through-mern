@@ -46,7 +46,7 @@ async function run() {
             res.send(result)
         })
 
-        // add database related apis here
+      
         app.post('/users', async (req, res) => {
             const newUser = req.body;
             const result = await usersCollection.insertOne(newUser);
