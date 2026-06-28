@@ -1,0 +1,1 @@
+let student:[string,number,boolean] = ["mahir", 21, true]
