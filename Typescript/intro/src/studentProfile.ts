@@ -28,8 +28,9 @@ const student1:Student ={
 }
 
 
-function displayStudent(student:Student){
+function displayStudent(student:Student):void{
     console.log(`Name: ${student.name}`);
     console.log(`Age: ${student.age}`);
     console.log(`Courses: ${student.courses.join(", ")}`);
 }
+displayStudent(student1);
