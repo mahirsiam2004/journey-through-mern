@@ -1,5 +1,5 @@
 {
-  "name": "mini-project",
+  "name": "postgressxmongo",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,10 +7,11 @@
   },
   "keywords": [],
   "author": "",
-  "type": "module",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.22.0"
   }
 }
