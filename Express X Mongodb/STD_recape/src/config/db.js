@@ -10,6 +10,10 @@ const client = new MongoClient(uri, {
   },
 });
 
+
+let db;
+
+
 async function connectDB() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
@@ -24,4 +28,9 @@ async function connectDB() {
   }
 }
 
-module.exports=connectDB;
+
+function getDB(){
+return getDB;
+}
+
+module.exports={connectDB,getDB};
